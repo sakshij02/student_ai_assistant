@@ -96,6 +96,8 @@ study-assistant/
 ├── tools.py          # All 4 tools + OpenAI schemas + dispatcher
 ├── embeddings.py     # FAISS index builder + semantic search
 ├── requirements.txt
+└── evidence/
+    ├── screenshots   # UI screenshots of sample queries 
 ├── data/
 │   ├── student_profile.json
 │   ├── performance_history.json
