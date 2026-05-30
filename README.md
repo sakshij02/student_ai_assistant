@@ -48,7 +48,6 @@ Chat UI renders in real time
    Navigate to [http://localhost:8000](http://localhost:8000)
 
 5. **Run the tests**
-
    Run all tests:
    ```bash
    python -m unittest discover -s tests -v
