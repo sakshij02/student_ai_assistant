@@ -49,11 +49,6 @@ Chat UI renders in real time
 
 5. **Run the tests**
 
-   Install the test dependency:
-   ```bash
-   pip install coverage
-   ```
-
    Run all tests:
    ```bash
    python -m unittest discover -s tests -v
