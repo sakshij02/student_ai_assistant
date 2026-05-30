@@ -116,6 +116,9 @@ study-assistant/
 - **Hybrid retrieval**: Structured JSON filtering for weak topics/tests; FAISS semantic search for study materials (handles vague queries like "equations" matching "Quadratic Equations Concept Video").
 - **SSE streaming**: Tool call events are streamed to the UI so the student sees what's happening in real time.
 
+## Evidence
+Screenshots demonstrating end-to-end working of the assistant are available in the `evidence/` directory.
+
 ## Limitations
 
 - **Single student only** — the data layer is hardcoded to one student profile (S123). There is no multi-student support, authentication, or user session management.
