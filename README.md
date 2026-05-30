@@ -47,6 +47,18 @@ Chat UI renders in real time
 4. **Open the UI**
    Navigate to [http://localhost:8000](http://localhost:8000)
 
+5. **Run the tests**
+
+   Install the test dependency:
+   ```bash
+   pip install coverage
+   ```
+
+   Run all tests:
+   ```bash
+   python -m unittest discover -s tests -v
+   ```
+
 ## Suggested Test Queries
 
 - "I am weak in Algebra. What should I do next?"
@@ -77,8 +89,12 @@ study-assistant/
 │   ├── performance_history.json
 │   ├── study_materials.json
 │   └── upcoming_tests.json
-└── static/
-    └── index.html    # Chat UI with dark/light theme
+├── static/
+│   └── index.html    # Chat UI with dark/light theme
+└── tests/
+    ├── test_config.py    # Shared fixtures and module loaders (no test classes)
+    ├── test_tools.py     # Unit tests for tools.py (40 tests)
+    └── test_agent.py     # Unit tests for agent.py (14 tests)
 ```
 
 ## Design Decisions
